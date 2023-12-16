@@ -1,0 +1,14 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+    
+header {
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
