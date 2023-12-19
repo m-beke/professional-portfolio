@@ -1,5 +1,6 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
     
 header {
@@ -8,17 +9,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 20px 20px 20px 0px;
 }
 
 header h1{
     background-color: lightblue;
-    padding: 5px 5px 5px 50px;
+    padding: 12px 5px 5px 70px;
     color: #3a3b3c;
     font-size: 40px;
 }
 
 header nav {
-    padding-top: 35px;
+    padding-top: 15px;
     padding-right: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -30,46 +32,57 @@ header a:visited {
 }
 
 .banner img {
-    width: 1887px;
-    height: 400px;
+    position: relative;
+    width: 1903px;
+    height: 300px;
 }
 
-.banner h2 {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+.banner-text {
+    position: absolute;
+    right: 50px;
+    top:325px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
     background-color: lightblue;
-    margin-right: 50px;
-    margin-left: 1600px;
 }
 
 .card {
     color: navy;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .card h2 {
-    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    text-wrap: wrap;
     padding-left: 100px;
     padding-right: 10px;
     border-right-style: solid;
     font-size: 50px;
     padding-bottom: 300px;
+   
 }
 
-.content {
-    display: flex;
-    justify-content: right;
-    padding: 50px;
-    padding-left: 10px;
-    padding-right: 100px;
+#featured {
+    position: relative;
+    left: 300px;
 }
 
-.content a {
+#featured-text {
+    position:absolute;
+    font-size: 24px;
+    font-weight: bold;
     background-color: lightblue;
+    padding:10px;
+    bottom:40px;
 }
 
-.content img {
-    padding: 10px;
+#work {
+    margin-left: 104px;
 }
+
+
