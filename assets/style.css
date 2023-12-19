@@ -50,7 +50,7 @@ header a:visited {
 .card {
     color: navy;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -63,8 +63,12 @@ header a:visited {
     padding-right: 10px;
     border-right-style: solid;
     font-size: 50px;
-    padding-bottom: 300px;
-   
+    padding-bottom: 300px; 
+}
+
+.content p {
+    font-size: 20px;
+    padding: 20px;
 }
 
 #featured {
@@ -76,6 +80,7 @@ header a:visited {
     position:absolute;
     font-size: 24px;
     font-weight: bold;
+    color: #3a3b3c;
     background-color: lightblue;
     padding:10px;
     bottom:40px;
